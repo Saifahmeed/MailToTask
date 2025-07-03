@@ -1,7 +1,7 @@
 ## MailToTasks — AI-powered Task Extraction from Emails
 
 ## Overview  
-MailToTasks is a simple web app prototype designed to automate extracting actionable tasks from construction and real-estate related emails. Using OpenAI’s GPT-4 model, the app parses unstructured email content and returns structured task lists including descriptions, assignees, and due dates. This helps project managers and site supervisors save time and reduce errors caused by manual task tracking.
+MailToTasks is a simple web app prototype designed to automate extracting actionable tasks from construction and real-estate related emails. Using OpenAI’s GPT-4 model, the app parses unstructured email content and returns structured task lists including descriptions, assignees, and due dates. this helps project managers and site supervisors save time and reduce errors caused by manually tracking tasks via emails.
 
 ## How to run locally
 
