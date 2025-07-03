@@ -24,5 +24,34 @@ Key design choices
 - Client-side only — to simplify deployment and avoid backend complexity, all processing and API calls happen directly in the browser.  
 - File saving via Blob — allows users to download extracted tasks as text files without server storage.
 
-## Known limitations
-- No user authentication or database — this is a minimal prototype focused on core functionality only.
+## Example input:
+Dear team,
+
+please make sure the project plans are thoroughly reviewed by next monday. kindly assign saif to update the budget report and mohammed to verify the safety protocols. the final draft should be submitted by friday.
+
+thank you,  
+ibrahim
+
+## Example output:
+[
+  {
+    "description": "review the project plans thoroughly",
+    "assignee": null,
+    "dueDate": "next monday"
+  },
+  {
+    "description": "update the budget report",
+    "assignee": "saif",
+    "dueDate": null
+  },
+  {
+    "description": "verify the safety protocols",
+    "assignee": "mohammed",
+    "dueDate": null
+  },
+  {
+    "description": "submit the final draft",
+    "assignee": null,
+    "dueDate": "friday"
+  }
+]
