@@ -30,10 +30,10 @@ Dear team,
 please make sure the project plans are thoroughly reviewed by next monday. kindly assign saif to update the budget report and mohammed to verify the safety protocols. the final draft should be submitted by friday.
 
 thank you,  
-ibrahim
+Ibrahim
 
-## Example output:
-[
+### example output (json)
+
   {
     "description": "review the project plans thoroughly",
     "assignee": null,
@@ -54,4 +54,3 @@ ibrahim
     "assignee": null,
     "dueDate": "friday"
   }
-]
