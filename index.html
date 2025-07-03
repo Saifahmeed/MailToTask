@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MailToTasks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>MailToTasks</h1>
+
+      <textarea
+        id="emailInput"
+        placeholder="paste your email content here..."
+      ></textarea>
+      <button id="generateBtn">generate tasks</button>
+
+      <div id="taskList" class="hidden">
+        <h2>extracted tasks</h2>
+        <ul id="tasks"></ul>
+        <input type="text" id="filename" placeholder="filename.txt" />
+        <button id="saveBtn">save to file</button>
+        <a id="downloadLink" class="hidden" download>download saved file</a>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
